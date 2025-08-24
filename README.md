@@ -7,17 +7,17 @@ It helps in:
 - Comparing predictions across **different stocks**.
 - Making **trading decisions** (e.g., Buy at Low, Sell at High).
 - Validating results using **Sharpe Ratio, Drawdown, Accuracy**, and other metrics.
-- Providing a **simple API** to input stock data and get predictions + backtesting reports.
+
 
 ---
 
 ## 🚀 Features
 - Data preprocessing with OHLCV + technical indicators (SMMA, PCA, UMAP).
 - Machine Learning models for regression & classification.
-- Backtesting engine with **cumulative returns, Sharpe ratio, max drawdown**.
+- Backtesting engine .
 - Trade-level summary (Win rate, Avg PnL, #Trades).
 - Visualization tools for **PCA/UMAP embeddings** and **Feature Importance**.
-- API for prediction + backtesting.
+
 
 ---
 
@@ -53,13 +53,13 @@ python main.py
 
 ## 📈 Model Performance
 
-🔹 Regression Model Results
+## 🔹 Regression Model Results
 
 RMSE: 3048.40
 
 R²: 0.3724
 
-🔹 Classification Results
+## 🔹 Classification Results
 
 ✅ Accuracy: 0.7430
 
