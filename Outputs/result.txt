@@ -1,0 +1,35 @@
+Regression Model Results
+
+RMSE: 3048.403116270235
+R²: 0.3724148029854113
+
+Classification Results
+
+✅ Accuracy: 0.7430058633640335
+
+📊 Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.74      0.75      0.74    375338
+           1       0.00      0.00      0.00        56
+           2       0.75      0.74      0.74    375199
+
+    accuracy                           0.74    750593
+   macro avg       0.50      0.50      0.50    750593
+weighted avg       0.74      0.74      0.74    750593
+
+
+📉 Confusion Matrix:
+ [[281595      0  93743]
+ [    17      0     39]
+ [ 99099      0 276100]]
+
+
+ Few Entries of Backtesting
+
+ 	date	stock_id	close	signal	portfolio_value
+3607764	2014-07-15	VISAKAIND	21.98	0	100000.000000
+1598098	2014-07-15	IOB	72.40	0	100000.000000
+1651812	2014-07-15	HAVELLS	244.39	0	100000.000000
+1621055	2014-07-15	ESABINDIA	621.35	-1	100000.000000
+3726780	2014-07-15	NLCINDIA	93.25	-1	184992.355355
