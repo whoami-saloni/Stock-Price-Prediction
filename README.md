@@ -1,22 +1,35 @@
 # 📈 Stock Price Prediction & Backtesting Framework
 
-This project provides a complete pipeline for **stock price prediction, signal generation, and backtesting** using Machine Learning and Deep Learning techniques.  
+This project provides a complete pipeline for stock price prediction, signal generation, and backtesting using Machine Learning and Deep Learning techniques.
+
 It helps in:
 
-- Predicting **future stock prices & movements** (classification + regression models).
-- Comparing predictions across **different stocks**.
-- Making **trading decisions** (e.g., Buy at Low, Sell at High).
-- Validating results using **Sharpe Ratio, Drawdown, Accuracy**, and other metrics.
+- Predicting future stock prices & movements (regression + classification models).
+
+- Comparing predictions across different stocks.
+
+- Making trading decisions (e.g., Buy at Low, Sell at High).
+
+- Validating results using Sharpe Ratio, Drawdown, Accuracy, and other metrics.
 
 
 ---
 
 ## 🚀 Features
+
 - Data preprocessing with OHLCV + technical indicators (SMMA, PCA, UMAP).
-- Machine Learning models for regression & classification.
-- Backtesting engine .
+
+- Regression model: LSTM with embedded stock ID for predicting prices.
+
+- Classification model: XGBoost for predicting stock movement.
+
+- Gradio UI: Interactive app to visualize 22-day upcoming future prices and predicted movements.
+
+- Backtesting engine.
+
 - Trade-level summary (Win rate, Avg PnL, #Trades).
-- Visualization tools for **PCA/UMAP embeddings** and **Feature Importance**.
+
+- Visualization tools for PCA/UMAP embeddings and Feature Importance.
 
 
 ---
@@ -45,10 +58,10 @@ pip install umap-learn
 pip install tensorflow
 
 # (Optional) If you want GPU support for TensorFlow
-pip install tensorflow[and-cuda]
+pip install tensorflow[and-cuda],gradio
 
-#run pipeline
-python main.py
+#run gradio app
+python app.py
 ```
 
 ## 📈 Model Performance
