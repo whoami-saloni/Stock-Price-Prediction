@@ -114,17 +114,14 @@ You can add a roadmap for enhancements:
 
 ✅ Real-time stock data fetching from Yahoo Finance / Alpha Vantage APIs.
 
-✅ Deploy API on Streamlit / FastAPI + Docker for production use.
+✅ Deploy API on Streamlit  + Docker for production use.
 
 ✅ Portfolio optimization strategies.
 
 ## 🤝 Contributing
 
-Encourage others to improve your repo:
 
 Contributions are welcome!  
 Fork the repo, create a new branch, make changes, and submit a Pull Request 🚀
 
-## 📜 License
 
-Add an open-source license (MIT / Apache 2.0 is common).
